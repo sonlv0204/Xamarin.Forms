@@ -465,7 +465,10 @@ namespace Xamarin.Forms.CustomAttributes
 			MaximumDate,
 			Focus,
 			IsVisible,
-			TextColor
+			TextColor,
+			FontAttributes,
+			FontFamily,
+			FontSize
 		}
 
 		public enum InputView
@@ -654,7 +657,10 @@ namespace Xamarin.Forms.CustomAttributes
 			Format,
 			Time,
 			Focus,
-			TextColor
+			TextColor,
+			FontAttributes,
+			FontFamily,
+			FontSize
 		}
 
 		public enum WebView {
@@ -693,7 +699,10 @@ namespace Xamarin.Forms.CustomAttributes
 			Items,
 			SelectedIndex,
 			Focus,
-			TextColor
+			TextColor,
+			FontAttributes,
+			FontFamily,
+			FontSize
 		}
 
 		public enum FileImageSource {
